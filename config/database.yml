@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  username: <%= Rails.application.credentials.database[:username] %>
+  password: <%= Rails.application.credentials.database[:password] %>
+  host: localhost
+  database: apun_development
+
+test:
+  <<: *default
+  username: <%= Rails.application.credentials.database[:username] %>
+  password: <%= Rails.application.credentials.database[:password] %>
+  host: localhost
+  database: apun_test
+
+production:
+  <<: *default
+  database: apun_production
+  username: apun
+  password: <%= ENV["APUN_DATABASE_PASSWORD"] %>

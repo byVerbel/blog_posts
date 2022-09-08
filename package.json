@@ -1,0 +1,23 @@
+{
+  "name": "apun",
+  "version": "1.0.0",
+  "description": "\"apun_app modules\"",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byVerbel/apun.git"
+  },
+  "author": "byverbel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byVerbel/apun/issues"
+  },
+  "homepage": "https://github.com/byVerbel/apun#readme"
+}
