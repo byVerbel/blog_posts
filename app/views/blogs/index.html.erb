@@ -1,14 +1,5 @@
-<p style="color: green"><%= notice %></p>
-
-<h1>Blogs</h1>
-
-<div id="blogs">
-  <% @blogs.each do |blog| %>
-    <%= render blog %>
-    <p>
-      <%= link_to "Show this blog", blog %>
-    </p>
-  <% end %>
+<div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+  <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Blogs</h2>
+  <%= link_to "Nuevo blog", new_blog_path, class: "inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline" %>
 </div>
-
-<%= link_to "New blog", new_blog_path %>
+<%= render 'article_card', resource: @blogs %>
