@@ -27,3 +27,5 @@ group :test do
   gem "selenium-webdriver", "4.2.0"
   gem "webdrivers",         "5.0.0"
 end
+
+gem "tailwindcss-rails", "~> 2.0"
