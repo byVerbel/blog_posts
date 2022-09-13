@@ -3,12 +3,8 @@
 ## Tabla de contenidos
 
 - [Prerrequisitos](#prerrequisitos)
-- [Instalar la app en tu PC](#instalar_la_app_en_tu_PC)
-- [Trabajos e idea general del proyecto](#trabajos_e_idea_general_del_proyecto)
-  1. [Trabajo 1](#trabajo-1)
-  2. [Trabajo 2](#trabajo-2)
-  3. [Trabajo 3](#trabajo-3)
-  4. [Trabajo 4](#trabajo-4)
+- [Instalar la app en tu PC](#instalar-la-app-en-tu-pc)
+- [Trabajos e idea general del proyecto](#trabajos-e-idea-general-del-proyecto)
 
 ## Prerrequisitos
 
@@ -73,6 +69,13 @@ Si se logra completar poco a poco estas ideas bases es posible que se obtenga un
 Por otro lado, las siguientes son ideas complementarias que se podrían agregar en la página, y es un apartado que se irá actualizando a medida de que se avance en el semestre:
 
 - Subir imágenes en el blog.
+
+A continuación se encuentran los avances de cada trabajo:
+
+1. [Trabajo 1](#trabajo-1)
+2. [Trabajo 2](#trabajo-2)
+3. [Trabajo 3](#trabajo-3)
+4. [Trabajo 4](#trabajo-4)
 
 ### Trabajo 1
 
