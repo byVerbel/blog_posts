@@ -1,0 +1,9 @@
+<div class="text-center">
+  <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Editar blog</h2>
+  <%= render "form", blog: @blog %>
+  <br>
+  <div>
+    <%= link_to "Leer el blog", @blog, class: "font-medium text-primary-600 dark:text-primary-500 hover:underline" %> |
+    <%= link_to "Todos los blogs", blogs_path, class: "font-medium text-primary-600 dark:text-primary-500 hover:underline" %>
+  </div>
+</div>

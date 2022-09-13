@@ -1,0 +1,6 @@
+<%= render @blog %>
+<div class="text-center">
+  <%= link_to "Editar este blog", edit_blog_path(@blog), class: "font-medium text-primary-600 dark:text-primary-500 hover:underline" %> |
+  <%= link_to "Todos los blogs", blogs_path, class: "font-medium text-primary-600 dark:text-primary-500 hover:underline" %>
+  <%= button_to "Borrar este blog", @blog, class: "font-medium text-primary-600 dark:text-primary-500 hover:underline", method: :delete %>
+</div>

@@ -1,0 +1,5 @@
+<div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+  <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Blogs</h2>
+  <%= link_to "Nuevo blog", new_blog_path, class: "inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline" %>
+</div>
+<%= render 'blog_card', resource: @blogs %>
