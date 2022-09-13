@@ -2,7 +2,6 @@
   <% if blog.errors.any? %>
     <div style="color: red">
       <h2><%= pluralize(blog.errors.count, "error") %> prohibited this blog from being saved:</h2>
-
       <ul>
         <% blog.errors.each do |error| %>
           <li><%= error.full_message %></li>
@@ -10,18 +9,17 @@
       </ul>
     </div>
   <% end %>
-
   <div>
-    <%= form.label "Título", style: "display: block" %>
-    <%= form.text_field :title %>
-  </div>
-
-  <div>
-    <%= form.label "Cuerpo", style: "display: block" %>
-    <%= form.text_area :body %>
-  </div>
-
-  <div>
-    <%= form.submit "Crear blog" %>
+    <div class="mb-14">
+      <%= form.label "Título", style: "display: block", class: "block mb-2 text-xl font-medium text-gray-900 dark:text-gray-400" %>
+      <%= form.text_field :title, class: "w-full sm:w-6/12 shadow appearance-none border border-red-500 rounded py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline", placeholder:"Título", aria:"With textarea", autocomplete: 'off' %>
+    </div>
+    <div class="mb-14">
+      <%= form.label "Cuerpo", style: "display: block", class: "block mb-2 text-xl font-medium text-gray-900 dark:text-gray-400" %>
+      <%= form.text_area :body, class: "w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500", placeholder:"Cuerpo", aria:"With textarea", rows:"20", cols: "100" %>
+    </div>
+    <div>
+      <%= form.submit "Crear blog", class: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800", type: "button" %>
+    </div>
   </div>
 <% end %>
