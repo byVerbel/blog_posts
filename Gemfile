@@ -13,6 +13,7 @@ gem "stimulus-rails",  "1.0.4"
 gem "jbuilder",        "2.11.5"
 gem "puma",            "5.6.4"
 gem "bootsnap",        "1.12.0", require: false
+gem 'tailwindcss-rails', '~> 2.0'
 
 group :development, :test do
   gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
@@ -27,5 +28,3 @@ group :test do
   gem "selenium-webdriver", "4.2.0"
   gem "webdrivers",         "5.0.0"
 end
-
-gem "tailwindcss-rails", "~> 2.0"
