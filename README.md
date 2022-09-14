@@ -2,9 +2,15 @@
 
 ## Tabla de contenidos
 
+- [Hacer que la app funcione](#hacer-que-la-app-funcione)
 - [Prerrequisitos](#prerrequisitos)
 - [Instalar la app en tu PC](#instalar-la-app-en-tu-pc)
 - [Trabajos e idea general del proyecto](#trabajos-e-idea-general-del-proyecto)
+
+## Hacer que la app funcione
+
+Si la app te está dando problemas (te muestra una pantalla azul) simplemente recárgala. Esto debería solucionar el problema, tanto si se abre en el celular como en el PC.
+
 
 ## Prerrequisitos
 
@@ -99,9 +105,9 @@ La base de datos para la realización de este trabajo tendría la siguiente estr
 
 ##### Referencias
 
-Cacho, L. (2018). _Esclavas del poder. Un viaje al corazón de la trata sexual de mujeres y niñas en el mundo_. México: DeBolsillo.
-
 Caballero, A. (2016). _Historia de Colombia y sus oligarquías_. Ministerio de Cultura: Biblioteca Nacional de Colombia.
+
+Cacho, L. (2018). _Esclavas del poder. Un viaje al corazón de la trata sexual de mujeres y niñas en el mundo_. México: DeBolsillo.
 
 Reséndez, A. (2019). _La otra esclavitud. Historia oculta del esclavismo indígena_. México: Grano de Sal/Instituto de Investigaciones Históricas, Universidad Nacional Autónoma de México.
 
@@ -129,9 +135,9 @@ Se agregó un ensayo para el Trabajo 3 y para el Trabajo 4, a modo de prueba de 
 
 ##### Referencias
 
-Pytel, C., Yurek, J., Marshall, K. (2007). _Pro Active Record: Databases with Ruby and Rails_. Apress.
-
 Damián S., M. C. (2020). _Estudios sobre el medio oriente desde América Latina. Perspectivas desde el sur_. Buenos Aires: CLACSO
+
+Pytel, C., Yurek, J., Marshall, K. (2007). _Pro Active Record: Databases with Ruby and Rails_. Apress.
 
 ##### Autoevaluación
 1. Si, mejoré debido a que me tocó escribir 2 ensayos.
