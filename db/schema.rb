@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_27_052345) do
+ActiveRecord::Schema[7.0].define(version: 2022_09_27_053734) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -35,6 +35,18 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_27_052345) do
     t.index ["blog_id"], name: "index_apun_self_evaluations_on_blog_id"
   end
 
+  create_table "bibliographies", force: :cascade do |t|
+    t.string "author"
+    t.text "title"
+    t.date "year"
+    t.string "city", limit: 85
+    t.string "publisher", limit: 85
+    t.bigint "blog_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["blog_id"], name: "index_bibliographies_on_blog_id"
+  end
+
   create_table "blogs", force: :cascade do |t|
     t.string "title"
     t.text "body"
@@ -43,4 +55,5 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_27_052345) do
   end
 
   add_foreign_key "apun_self_evaluations", "blogs"
+  add_foreign_key "bibliographies", "blogs"
 end
