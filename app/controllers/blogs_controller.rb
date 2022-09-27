@@ -13,6 +13,8 @@ class BlogsController < ApplicationController
   # GET /blogs/new
   def new
     @blog = Blog.new
+    @apun_self_evaluation = ApunSelfEvaluation.new
+    @bibliography = Bibliography.new
   end
 
   # GET /blogs/1/edit
