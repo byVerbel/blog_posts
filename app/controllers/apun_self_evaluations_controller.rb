@@ -52,6 +52,6 @@ class ApunSelfEvaluationsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def apun_self_evaluation_params
-      params.require(:apun_self_evaluation).permit(:answer, :answer, :answer, :answer, :answer, :answer, :answer, :answer, :answer, :answer, :answer, :answer, :answer, :answer, :blog_id)
+      params.require(:apun_self_evaluation).permit(:answer1, :answer2, :answer3, :answer4, :answer5, :answer6, :answer7, :answer8, :answer9, :answer10, :answer11, :answer12, :answer13, :answer14, :blog_id)
     end
 end
