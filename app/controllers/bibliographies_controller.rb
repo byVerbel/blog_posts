@@ -1,10 +1,6 @@
 class BibliographiesController < ApplicationController
   before_action :set_bibliographies, only: %i[ show update destroy ]
 
-  # GET /bibliographies/1 or /bibliographies/1.json
-  def show
-  end
-
   # POST /bibliographies or /bibliographies.json
   def create
     @bibliography = Bibliography.new(bibliography_params)

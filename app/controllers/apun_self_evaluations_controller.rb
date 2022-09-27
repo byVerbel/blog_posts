@@ -1,10 +1,6 @@
 class ApunSelfEvaluationsController < ApplicationController
   before_action :set_apun_self_evaluation, only: %i[ show update destroy ]
 
-  # GET /apun_self_evaluations/1 or /apun_self_evaluations/1.json
-  def show
-  end
-
   # POST /apun_self_evaluations or /apun_self_evaluations.json
   def create
     @apun_self_evaluation = ApunSelfEvaluation.new(apun_self_evaluation_params)
