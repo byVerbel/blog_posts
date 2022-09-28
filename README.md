@@ -11,7 +11,6 @@
 
 Si la app te está dando problemas (te muestra una pantalla azul) simplemente recárgala. Esto debería solucionar el problema, tanto si se abre en el celular como en el PC.
 
-
 ## Prerrequisitos
 
 Para poder instalar la aplicación se tienen algunos "prerrequisitos". Estos son:
@@ -113,6 +112,7 @@ Cacho, L. (2018). _Esclavas del poder. Un viaje al corazón de la trata sexual d
 Reséndez, A. (2019). _La otra esclavitud. Historia oculta del esclavismo indígena_. México: Grano de Sal/Instituto de Investigaciones Históricas, Universidad Nacional Autónoma de México.
 
 ##### Autoevaluación
+
 1. Si, siento que logré mejorar mi lecto/escritura pues me tocó crear un documento instructivo para la aplicación.
 2. Si, logré ser creativo a la hora de diseñar la página.
 3. No mucho, hice todo detrás de un PC.
@@ -141,6 +141,7 @@ Damián S., M. C. (2020). _Estudios sobre el medio oriente desde América Latina
 Pytel, C., Yurek, J., Marshall, K. (2007). _Pro Active Record: Databases with Ruby and Rails_. Apress.
 
 ##### Autoevaluación
+
 1. Si, mejoré debido a que me tocó escribir 2 ensayos.
 2. No, hacer ensayos no es que sea muy creativo.
 3. No mucho, no debatí de este tema con nadie.
@@ -158,12 +159,12 @@ Pytel, C., Yurek, J., Marshall, K. (2007). _Pro Active Record: Databases with Ru
 
 **Nota:** 5
 
-<!-- Se agregó funcionalidad de creación de autoevaluación, específica para la Cátedra APUN.
-
-La base de datos al momento de la realización de este trabajo queda de esta manera:
-
-![work_4_db](/app/assets/images/db4.png) -->
-
 ### Trabajo 5
 
-Se piensa crear cuestionario de autoevaluación.
+Se agregó un formulario para la autoevaluación de la cátedra. Se puede crear/editar la autoevaluación ligada a cada uno de los blogs que se hagan.
+
+También se agregaron las bases para agregar referencias a los blogs. Ese será el objetivo del trabajo 6.
+
+La base de datos para la realización de este trabajo tiene la siguiente estructura, hecha con la ayuda de las referencias consultadas:
+
+![work_5_db](/app/assets/images/db5.png)
