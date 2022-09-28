@@ -111,23 +111,6 @@ Cacho, L. (2018). _Esclavas del poder. Un viaje al corazón de la trata sexual d
 
 Reséndez, A. (2019). _La otra esclavitud. Historia oculta del esclavismo indígena_. México: Grano de Sal/Instituto de Investigaciones Históricas, Universidad Nacional Autónoma de México.
 
-##### Autoevaluación
-
-1. Si, siento que logré mejorar mi lecto/escritura pues me tocó crear un documento instructivo para la aplicación.
-2. Si, logré ser creativo a la hora de diseñar la página.
-3. No mucho, hice todo detrás de un PC.
-4. Si, la esclavitud es un tema del que había estado leyendo recientemente por lo cual lo quise conectar con la temática de la conferencia.
-5. Creo que me empeoró, porque me presioné para hacer algo bastante complejo y no me estaba quedanto tiempo para otras actividades. Incluso llegando a aceptar una nota menor con el fin de entregar algo decente.
-6. Más o menos. Creo que sigo administrando mal el tiempo y por ello sigo sacando malas notas.
-7. Si. Aún faltan algunas cosas pero las bases están bien.
-8. Si. Me motivó a compartir el tema con algunos conocidos.
-9. No porque sigo colocándome una presión muy grande y no logro entregar lo que quiero.
-10. Si, todas las dudas tecnológicas que me tocó resolver.
-11. Si. Creo que lo más complicado eran hacer los estilos y logré que quedara algo decente.
-12. Dedicándole más tiempo, pero en verdad no me es posible.
-13. En mi trabajo puedo aplicar los conocimientos tecnológicos día a día.
-14. La falta de tiempo. No sé realmente como solucionarlo, no puedo dejar de vivir mi vida por entregar un trabajo.
-
 **Nota:** 3.5
 
 ### Trabajo 4
@@ -139,25 +122,6 @@ Se agregó un ensayo para el Trabajo 3 y para el Trabajo 4, a modo de prueba de 
 Damián S., M. C. (2020). _Estudios sobre el medio oriente desde América Latina. Perspectivas desde el sur_. Buenos Aires: CLACSO
 
 Pytel, C., Yurek, J., Marshall, K. (2007). _Pro Active Record: Databases with Ruby and Rails_. Apress.
-
-##### Autoevaluación
-
-1. Si, mejoré debido a que me tocó escribir 2 ensayos.
-2. No, hacer ensayos no es que sea muy creativo.
-3. No mucho, no debatí de este tema con nadie.
-4. Si, creo que tengo un conocimiento aceptable del tema.
-5. No, sigo algo nervioso con el poco tiempo que tengo para este tipo de entregas.
-6. Creo que no, no me da el tiempo.
-7. No, quería avanzar más en la página.
-8. No, es un tema del que ya tenía ciertas opiniones.
-9. No mucho, quería avanzar más con la página.
-10. No, ya tenía un relativamente buen conocimiento de este tema.
-11. No, quería hacer más con la página.
-12. Dedicándole más tiempo, pero en verdad no lo veo muy posible.
-13. En mi trato con personas de esta región.
-14. La falta de tiempo.
-
-**Nota:** 5
 
 ### Trabajo 5
 
