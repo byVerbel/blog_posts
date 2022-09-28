@@ -1,4 +1,8 @@
 <%= render @blog %>
+<div class="text-center mx-auto sm:w-6/12">
+  <h2 class="mb-4 text-xl lg:text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">Autoevaluación</h2>
+  <%= render "apun_self_evaluations/apun_self_evaluation", apun_self_evaluation: @blog.apun_self_evaluation %>
+</div>
 <div class="text-center">
   <%= link_to "Editar este blog", edit_blog_path(@blog), class: "font-medium text-primary-600 dark:text-primary-500 hover:underline" %> |
   <%= link_to "Todos los blogs", blogs_path, class: "font-medium text-primary-600 dark:text-primary-500 hover:underline" %>

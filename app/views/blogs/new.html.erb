@@ -1,8 +1,13 @@
 <div class="text-center mx-auto sm:w-6/12">
   <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Crear blog</h2>
   <%= render "form", blog: @blog %>
-  <h2 class="mb-4 text-xl lg:text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">Agregar Autoevaluación</h2>
-  <%= render "apun_self_evaluations/form", blog: @apun_self_evaluation %>
+  <% if @blog.apun_self_evaluation.present? %>
+    <h2 class="mb-4 text-xl lg:text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">Autoevaluación</h2>
+    <%= render "apun_self_evaluations/apun_self_evaluation", apun_self_evaluation: @blog.apun_self_evaluation %>
+  <% else %>
+    <h2 class="mb-4 text-xl lg:text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">Agregar Autoevaluación</h2>
+    <%= render "apun_self_evaluations/form", apun_self_evaluation: @apun_self_evaluation, blog: @blog %>
+  <% end %>
   <div>
     <%= link_to "Todos los blogs", blogs_path, class: "font-medium text-primary-600 dark:text-primary-500 hover:underline" %>
   </div>
