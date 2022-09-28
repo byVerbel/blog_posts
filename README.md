@@ -82,6 +82,7 @@ A continuación se encuentran los avances de cada trabajo:
 2. [Trabajo 2](#trabajo-2)
 3. [Trabajo 3](#trabajo-3)
 4. [Trabajo 4](#trabajo-4)
+5. [Trabajo 5](#trabajo-5)
 
 ### Trabajo 1
 
