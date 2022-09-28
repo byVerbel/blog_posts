@@ -1,0 +1,6 @@
+<article class="lg:mb-16 mb-8">
+  <% (1..14).each do |question_number| %>
+    <p class="text-left mb-2 text-lg tracking-tight font-medium text-gray-900 dark:text-white"><%= "#{question_number}- #{::ApunSelfEvaluation::QUESTIONS["question#{question_number}".to_sym]}" %></p>
+    <p class="text-left font-light text-lg text-gray-900 dark:text-gray-800"><%= "R/ #{apun_self_evaluation.try("answer#{question_number}")}" %></p>
+  <% end %>
+</article>
