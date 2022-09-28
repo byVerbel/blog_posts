@@ -11,9 +11,9 @@
   <% end %>
   <div>
     <% (1..14).each do |question_number| %>
+    <p class="text-left mb-2 text-lg tracking-tight text-gray-900 dark:text-white"><%= "#{question_number}- #{::ApunSelfEvaluation::QUESTIONS["question#{question_number}".to_sym]}" %></p>
       <div class="mb-5">
-        <%= form.label "#{question_number}- #{::ApunSelfEvaluation::QUESTIONS["question#{question_number}".to_sym]}", class: "block mb-2 w-full text-left text-gray-900 dark:text-gray-400" %>
-        <%= form.text_area "answer#{question_number}".to_sym, class: "w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500", placeholder:"Cuerpo", aria:"With textarea", autocomplete: 'off' %>
+        <%= form.text_area "answer#{question_number}".to_sym, class: "w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500", placeholder:"Respuesta", aria:"With textarea", autocomplete: 'off' %>
       </div>
     <% end %>
     <%= form.hidden_field :blog_id, value: apun_self_evaluation.blog_id || blog.id %>
