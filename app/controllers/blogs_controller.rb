@@ -19,6 +19,8 @@ class BlogsController < ApplicationController
 
   # GET /blogs/1/edit
   def edit
+    @apun_self_evaluation = ApunSelfEvaluation.new
+    @bibliography = Bibliography.new
   end
 
   # POST /blogs or /blogs.json
